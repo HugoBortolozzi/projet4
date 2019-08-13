@@ -68,7 +68,7 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="http://localhost:8080/wp-content/themes/coding-theme/img/portfolio/cabin.png" alt="">
+            <img class="img-fluid mb-5" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/cabin.png" alt="">
             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
@@ -89,7 +89,7 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="http://localhost:8080/wp-content/themes/coding-theme/img/portfolio/cake.png" alt="">
+            <img class="img-fluid mb-5" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/cake.png" alt="">
             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
@@ -110,7 +110,7 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="http://localhost:8080/wp-content/themes/coding-theme/img/portfolio/circus.png" alt="">
+            <img class="img-fluid mb-5" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/circus.png" alt="">
             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
@@ -131,7 +131,7 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="http://localhost:8080/wp-content/themes/coding-theme/img/portfolio/game.png" alt="">
+            <img class="img-fluid mb-5" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/game.png" alt="">
             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
@@ -152,7 +152,7 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="http://localhost:8080/wp-content/themes/coding-theme/img/portfolio/safe.png" alt="">
+            <img class="img-fluid mb-5" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/safe.png" alt="">
             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
@@ -173,7 +173,7 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="http://localhost:8080/wp-content/themes/coding-theme/img/portfolio/submarine.png" alt="">
+            <img class="img-fluid mb-5" src="<?php echo get_template_directory_uri(); ?>/img/portfolio/submarine.png" alt="">
             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
@@ -184,15 +184,15 @@
     </div>
   </div>
   <!-- Bootstrap core JavaScript -->
-  <script src="http://localhost:8080/wp-content/themes/coding-theme/vendor/jquery/jquery.min.js"></script>
-  <script src="http://localhost:8080/wp-content/themes/coding-theme/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/vendor/jquery/jquery.min.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- Plugin JavaScript -->
-  <script src="http://localhost:8080/wp-content/themes/coding-theme/vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="http://localhost:8080/wp-content/themes/coding-theme/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
   <!-- Contact Form JavaScript -->
-  <script src="http://localhost:8080/wp-content/themes/coding-theme/js/jqBootstrapValidation.js"></script>
-  <script src="http://localhost:8080/wp-content/themes/coding-theme/js/contact_me.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/jqBootstrapValidation.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/contact_me.js"></script>
   <!-- Custom scripts for this template -->
-  <script src="http://localhost:8080/wp-content/themes/coding-theme/js/freelancer.min.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/freelancer.min.js"></script>
 </body>
 </html>
