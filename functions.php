@@ -56,4 +56,4 @@ function ajout_menu_a_class($atts, $item, $args)
 }
 // Ajout d'un écouteur d'événement de type filtre qui nous permet de changer les attributs des balises <a>
 // les add_action et add_filter peuvent avoit jusqu'à 4 paramêtre. Le 3ème pour l'ordre d'execution et le 4 ème pour le nombre de parammètre qui seront passer à la fonction callback
-add_filter('nav_menu_link_attributes', 'ajout_menu_a_class', 10, 3); 
+add_filter('nav_menu_link_attributes', 'ajout_menu_a_class', 10, 3);
